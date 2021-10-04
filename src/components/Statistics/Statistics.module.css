@@ -1,0 +1,36 @@
+.statistics {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 600px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.title {
+  padding: 40px;
+  text-align: center;
+  border: 1px solid rgb(202, 200, 200);
+  text-transform: uppercase;
+  color: rgb(102, 100, 100);
+  margin-bottom: 0;
+}
+
+.statList {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+}
+
+.item {
+  padding: 20px;
+  width: 20%;
+  border: 1px solid rgb(202, 200, 200);
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset;
+}
+
+.percentage {
+  display: block;
+  font-size: 30px;
+}
