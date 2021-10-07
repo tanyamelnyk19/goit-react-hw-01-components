@@ -1,10 +1,8 @@
 import PropTypes from "prop-types";
-import s from "./FriendList.module.css";
-import Friend from "./Friend";
-
+import Friend from "../Friend/Friend";
 export default function FriendList({ friends }) {
   return (
-    <ul className={s.friendList}>
+    <ul>
       {friends.map(({ id, avatar, name, isOnline }) => (
         <Friend key={id} avatar={avatar} name={name} isOnline={isOnline} />
       ))}
